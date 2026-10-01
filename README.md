@@ -1,9 +1,11 @@
 # Methodology
 
-收录项目研究论文与技术文档。
+English · [简体中文](README.zh-CN.md)
+
+Research notes and technical papers exploring the ideas and methods behind our projects.
 
 ## DeckStage
 
-介绍扑克牌宣传图的几何重建、非破坏性透视渲染与牌盒折叠方法。
+A study of playing-card presentation scenes, connecting geometric reconstruction, perspective mapping and folded packaging while preserving the original artwork.
 
-[英文论文 · 水印 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf)
+[Read the paper](https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf)
