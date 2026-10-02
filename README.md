@@ -12,10 +12,10 @@ Independent papers and research notes from yf-official. Each entry presents its 
 
 | Paper | Central question | Topics | Read |
 | --- | --- | --- | --- |
-| **DeckStage** | How can a card mockup follow reference geometry while preserving the supplied artwork? | Projective geometry · non-destructive rendering · folded packaging | [Notes](papers/deckstage/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf) |
-| **IconLab** | How can interactive composition and exports at different sizes share one geometric meaning? | Affine transforms · undo transactions · supersampling | [Notes](papers/iconlab/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf) |
+| **[DeckStage](#deckstage)** | How can a card mockup follow reference geometry while preserving the supplied artwork? | Projective geometry · non-destructive rendering · folded packaging | [Notes](papers/deckstage/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf) |
+| **[IconLab](#iconlab)** | How can interactive composition and exports at different sizes share one geometric meaning? | Affine transforms · undo transactions · supersampling | [Notes](papers/iconlab/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf) |
 
-### 01 / DeckStage
+### DeckStage
 
 **Reference-Constrained Reconstruction of Playing-Card Mockup Scenes: Geometry, Non-Destructive Rendering, and Validation**<br>
 Fox Studio · 22 pages · English · Technical manuscript for design review
@@ -28,7 +28,7 @@ A card scene couples physical dimensions, reference perspective, overlapping obj
 
 [Explore the paper →](papers/deckstage/README.md) · [Versioned release](https://github.com/yf-official/yf-official-methodology/releases/tag/paper-2026-10-01)
 
-### 02 / IconLab
+### IconLab
 
 **A Geometry-Consistent Method for Interactive Icon Composition and Multiresolution Export**<br>
 yf-official · 8 pages · English · Technical paper

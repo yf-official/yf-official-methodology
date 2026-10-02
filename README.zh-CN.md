@@ -12,10 +12,10 @@
 
 | 论文 | 核心问题 | 研究主题 | 阅读入口 |
 | --- | --- | --- | --- |
-| **DeckStage** | 如何遵循参考图的几何关系，同时保留原始扑克牌设计？ | 射影几何 · 非破坏性渲染 · 折叠包装 | [中文导读](papers/deckstage/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf) |
-| **IconLab** | 如何让交互编辑与不同尺寸的导出共享一致的几何含义？ | 仿射变换 · 撤销事务 · 超采样 | [中文导读](papers/iconlab/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf) |
+| **[DeckStage](#deckstage)** | 如何遵循参考图的几何关系，同时保留原始扑克牌设计？ | 射影几何 · 非破坏性渲染 · 折叠包装 | [中文导读](papers/deckstage/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf) |
+| **[IconLab](#iconlab)** | 如何让交互编辑与不同尺寸的导出共享一致的几何含义？ | 仿射变换 · 撤销事务 · 超采样 | [中文导读](papers/iconlab/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf) |
 
-### 01 / DeckStage
+### DeckStage
 
 **Reference-Constrained Reconstruction of Playing-Card Mockup Scenes: Geometry, Non-Destructive Rendering, and Validation**<br>
 参考约束下的扑克牌展示场景重建：几何、非破坏性渲染与验证（中文译名）<br>
@@ -29,7 +29,7 @@ Fox Studio · 22 页 · 英文 · 供设计评审的技术稿
 
 [展开中文导读 →](papers/deckstage/README.zh-CN.md) · [查看发布版本](https://github.com/yf-official/yf-official-methodology/releases/tag/paper-2026-10-01)
 
-### 02 / IconLab
+### IconLab
 
 **A Geometry-Consistent Method for Interactive Icon Composition and Multiresolution Export**<br>
 交互式图标合成与多分辨率导出的几何一致性方法（中文译名）<br>

@@ -63,8 +63,22 @@
 
 发布版本附带 PDF，并单独链接应用仓库。本论文集尚未分发独立数值实验脚本。
 
-## 引用与权利
+## 复制引用
 
 yf-official. *A Geometry-Consistent Method for Interactive Icon Composition and Multiresolution Export*. 技术论文，2026。发布版本 `iconlab-paper-2026-10-01`。BibTeX 键：`yfofficial2026iconlab`。
+
+```bibtex
+@misc{yfofficial2026iconlab,
+  author       = {{yf-official}},
+  title        = {A Geometry-Consistent Method for Interactive Icon Composition and Multiresolution Export},
+  year         = {2026},
+  month        = oct,
+  howpublished = {Technical paper, GitHub Releases},
+  url          = {https://github.com/yf-official/yf-official-methodology/releases/tag/iconlab-paper-2026-10-01},
+  note         = {English manuscript, 8 pages. Published October 1, 2026. Release iconlab-paper-2026-10-01}
+}
+```
+
+## 权利说明
 
 发布页未指定复用许可。转载或改编原稿前请联系作者，应用源码的权利需另行确认。

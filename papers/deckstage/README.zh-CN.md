@@ -63,8 +63,22 @@
 
 论文提及配套数值材料，但当前发布版本只附带 PDF。本论文集尚未提供可直接运行的复现材料包。
 
-## 引用与权利
+## 复制引用
 
 Fox Studio. *Reference-Constrained Reconstruction of Playing-Card Mockup Scenes: Geometry, Non-Destructive Rendering, and Validation*. 供设计评审的技术稿，2026。发布版本 `paper-2026-10-01`。BibTeX 键：`foxstudio2026deckstage`。
+
+```bibtex
+@misc{foxstudio2026deckstage,
+  author       = {{Fox Studio}},
+  title        = {Reference-Constrained Reconstruction of Playing-Card Mockup Scenes: Geometry, Non-Destructive Rendering, and Validation},
+  year         = {2026},
+  month        = oct,
+  howpublished = {Technical manuscript for design review, GitHub Releases},
+  url          = {https://github.com/yf-official/yf-official-methodology/releases/tag/paper-2026-10-01},
+  note         = {English manuscript, 22 pages. Published October 1, 2026. Release paper-2026-10-01}
+}
+```
+
+## 权利说明
 
 原稿声明 © 2026 Fox Studio，保留所有权利，转载需许可。分享时请使用官方发布链接。

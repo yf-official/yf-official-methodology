@@ -62,8 +62,22 @@ A separate **30,000-case** test of reflected coordinate formulas reports maximum
 
 The release attaches the PDF, with the application repository linked separately. This collection does not yet distribute the independent numerical experiment scripts.
 
-## Citation and rights
+## Copy citation
 
 yf-official. *A Geometry-Consistent Method for Interactive Icon Composition and Multiresolution Export*. Technical paper, 2026. Release `iconlab-paper-2026-10-01`. BibTeX key: `yfofficial2026iconlab`.
+
+```bibtex
+@misc{yfofficial2026iconlab,
+  author       = {{yf-official}},
+  title        = {A Geometry-Consistent Method for Interactive Icon Composition and Multiresolution Export},
+  year         = {2026},
+  month        = oct,
+  howpublished = {Technical paper, GitHub Releases},
+  url          = {https://github.com/yf-official/yf-official-methodology/releases/tag/iconlab-paper-2026-10-01},
+  note         = {English manuscript, 8 pages. Published October 1, 2026. Release iconlab-paper-2026-10-01}
+}
+```
+
+## Rights
 
 The release does not specify a reuse license. Consult the author before redistributing or adapting the manuscript; the application repository's rights must be checked separately.

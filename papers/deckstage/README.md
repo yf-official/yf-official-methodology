@@ -62,8 +62,22 @@ Those values demonstrate model mismatch for the specified synthetic geometry. Th
 
 The manuscript describes associated numerical materials, but the current release attaches only the PDF. No runnable reproduction bundle is supplied by this collection.
 
-## Citation and rights
+## Copy citation
 
 Fox Studio. *Reference-Constrained Reconstruction of Playing-Card Mockup Scenes: Geometry, Non-Destructive Rendering, and Validation*. Technical manuscript for design review, 2026. Release `paper-2026-10-01`. BibTeX key: `foxstudio2026deckstage`.
+
+```bibtex
+@misc{foxstudio2026deckstage,
+  author       = {{Fox Studio}},
+  title        = {Reference-Constrained Reconstruction of Playing-Card Mockup Scenes: Geometry, Non-Destructive Rendering, and Validation},
+  year         = {2026},
+  month        = oct,
+  howpublished = {Technical manuscript for design review, GitHub Releases},
+  url          = {https://github.com/yf-official/yf-official-methodology/releases/tag/paper-2026-10-01},
+  note         = {English manuscript, 22 pages. Published October 1, 2026. Release paper-2026-10-01}
+}
+```
+
+## Rights
 
 The manuscript states: © 2026 Fox Studio. All rights reserved. Redistribution requires permission. Use the official release link when sharing the paper.
