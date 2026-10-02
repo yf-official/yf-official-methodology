@@ -6,7 +6,7 @@ English · [简体中文](README.zh-CN.md)
 
 **The reasoning behind the tools.** A collection of methodology papers and technical studies from yf-official projects: how a design problem becomes a geometric model, an editing workflow, and a result that can be checked.
 
-The collection currently contains **two English technical manuscripts**, published on **October 1, 2026**. Chinese pages provide reading notes; the linked PDFs are the original English editions. These are project research manuscripts, with evidence and limitations described individually.
+Browse the papers by project, or follow a reading path across shared methods.
 
 [Paper library](#paper-library) · [Reading paths](#reading-paths) · [Shared methodology](docs/methodology.md) · [BibTeX](references.bib) · [Contributing](CONTRIBUTING.md)
 

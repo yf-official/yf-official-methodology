@@ -10,7 +10,7 @@
 2. 将审阅后的 PDF 附在带版本的 GitHub Release 中。保留已有发布资产，实质修订使用新标签；检查下载链接在未登录时也能访问。
 3. 按[导读模板](templates/paper-notes.md)创建 `papers/<id>/README.md` 和 `README.zh-CN.md`。标明翻译标题，区分中文导读与论文原稿语言。
 4. 参照现有字段，在 [catalog.json](catalog.json) 中新增条目。ID 与引用键必须唯一，页数和资产文件名必须准确；只有核实过公开源码链接后才填写 `project_url`。
-5. 在 [references.bib](references.bib) 中添加单篇稿件引用，更新双语首页、收录数量及相关阅读路线，两种语言中的事实保持一致。
+5. 在 [references.bib](references.bib) 中添加单篇稿件引用，更新双语首页的论文条目及相关阅读路线，两种语言中的事实保持一致。
 6. 在仓库根目录运行 `python3 scripts/validate.py`。联网时再运行 `python3 scripts/validate.py --remote` 检查发布元数据，然后通过 Pull Request 提交。
 
 ## 怎样写出有用的导读
