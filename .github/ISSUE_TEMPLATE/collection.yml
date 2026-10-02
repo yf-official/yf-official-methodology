@@ -1,0 +1,33 @@
+name: Collection feedback / 论文集反馈
+description: Report a correction, broken link, or missing explanation / 报告错误、失效链接或说明缺失
+title: "[Collection] "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Feedback type / 反馈类型
+      options:
+        - Factual correction / 事实修正
+        - Broken link / 失效链接
+        - Reading notes or translation / 导读或翻译
+        - New manuscript / 新稿件
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Paper, version and location / 论文、版本与位置
+      description: Include a page, section, or file path / 请提供页码、章节或文件路径
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Current issue and proposed improvement / 当前问题与建议
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting source / 依据
+      description: Link the manuscript, source code, or other evidence where relevant / 如适用，请链接原稿、源码或其他依据

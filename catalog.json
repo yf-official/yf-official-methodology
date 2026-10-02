@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "repository": "yf-official/yf-official-methodology",
+  "papers": [
+    {
+      "id": "deckstage",
+      "project": "DeckStage",
+      "title": "Reference-Constrained Reconstruction of Playing-Card Mockup Scenes: Geometry, Non-Destructive Rendering, and Validation",
+      "authors": ["Fox Studio"],
+      "published": "2026-10-01",
+      "language": "en",
+      "pages": 22,
+      "publication_type": "Technical manuscript for design review",
+      "topics": ["projective-geometry", "non-destructive-rendering", "occlusion", "folded-packaging"],
+      "release_tag": "paper-2026-10-01",
+      "asset": "DeckStage_Methodology.pdf",
+      "pdf_url": "https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf",
+      "release_url": "https://github.com/yf-official/yf-official-methodology/releases/tag/paper-2026-10-01",
+      "notes": {"en": "papers/deckstage/README.md", "zh-CN": "papers/deckstage/README.zh-CN.md"},
+      "citation_key": "foxstudio2026deckstage",
+      "rights": "Copyright 2026 Fox Studio. All rights reserved. Redistribution requires permission."
+    },
+    {
+      "id": "iconlab",
+      "project": "IconLab",
+      "title": "A Geometry-Consistent Method for Interactive Icon Composition and Multiresolution Export",
+      "authors": ["yf-official"],
+      "published": "2026-10-01",
+      "language": "en",
+      "pages": 8,
+      "publication_type": "Technical paper",
+      "topics": ["affine-transforms", "interactive-editing", "undo-transactions", "supersampling"],
+      "release_tag": "iconlab-paper-2026-10-01",
+      "asset": "IconLab-methodology.pdf",
+      "pdf_url": "https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf",
+      "release_url": "https://github.com/yf-official/yf-official-methodology/releases/tag/iconlab-paper-2026-10-01",
+      "project_url": "https://github.com/yf-official/IconLab",
+      "notes": {"en": "papers/iconlab/README.md", "zh-CN": "papers/iconlab/README.zh-CN.md"},
+      "citation_key": "yfofficial2026iconlab",
+      "rights": "No explicit reuse license is specified in the release. Consult the author."
+    }
+  ]
+}
