@@ -10,14 +10,12 @@ Useful contributions include correcting a paper's metadata, improving a reading 
 2. Attach the reviewed PDF to a versioned GitHub Release. Preserve existing release assets; publish substantive revisions under a new tag. Verify that the download link works without signing in.
 3. Create `papers/<id>/README.md` and `README.zh-CN.md` using [the note template](templates/paper-notes.md). Label translated titles and distinguish Chinese notes from the language of the manuscript.
 4. Add one entry to [catalog.json](catalog.json), following the existing fields. IDs and citation keys must be unique. Record exact page count and release asset name; include `project_url` only when a public source link has been verified.
-5. Add the individual manuscript to [references.bib](references.bib), then update the paper entries in both root READMEs and any relevant reading paths. Keep factual details consistent across languages.
+5. Add the individual manuscript to [references.bib](references.bib), then update the paper entries in both root READMEs. Keep factual details consistent across languages.
 6. Run `python3 scripts/validate.py` from the repository root. For live release metadata, also run `python3 scripts/validate.py --remote` with network access. Submit the changes through a pull request.
 
 ## Write useful notes
 
 State the problem and assumptions before the method. Provide a short section map, explain one transferable idea, and identify what a reported metric actually measures. Separate implementation observations, mathematical identities, synthetic experiments, proposed tests, and user studies. Link reproduction materials only when they are available, and say what is missing.
-
-The [shared methodology guide](docs/methodology.md) is an editorial synthesis. Updating it does not create new evidence for a paper.
 
 ## Report a correction
 

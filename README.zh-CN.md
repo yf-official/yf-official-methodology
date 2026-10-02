@@ -1,14 +1,12 @@
-![Methodology：几何、交互、渲染与验证](assets/methodology.svg)
+![Methodology 论文集](assets/methodology.svg)
 
 # Methodology · 方法论论文集
 
 [English](README.md) · 简体中文
 
-**记录工具背后的推导与取舍。** 收录 yf-official 项目相关的方法论论文与技术研究：一个设计问题如何转化为几何模型、编辑流程，以及可以检验的结果。
+收录 yf-official 的独立论文与研究笔记。各篇分别介绍研究问题、方法、出版信息与阅读资料。
 
-可以按项目浏览论文，也可以沿主题阅读路线了解不同项目之间的方法联系。
-
-[论文目录](#论文目录) · [阅读路线](#阅读路线) · [共同方法](docs/methodology.zh-CN.md) · [BibTeX 引用](references.bib) · [参与完善](CONTRIBUTING.zh-CN.md)
+[论文目录](#论文目录) · [BibTeX 引用](references.bib) · [参与完善](CONTRIBUTING.zh-CN.md)
 
 ## 论文目录
 
@@ -45,18 +43,6 @@ yf-official · 8 页 · 英文 · 技术论文
 
 [展开中文导读 →](papers/iconlab/README.zh-CN.md) · [项目源码](https://github.com/yf-official/IconLab) · [查看发布版本](https://github.com/yf-official/yf-official-methodology/releases/tag/iconlab-paper-2026-10-01)
 
-## 阅读路线
-
-| 你关心的问题 | 建议先读 | 再连接到 |
-| --- | --- | --- |
-| 从参考图重建场景 | DeckStage 第 IV–V 节：线族与平面估计 | 第 VIII–IX 节：相机先验与折叠包装 |
-| 渲染中保持图稿完整 | DeckStage 第 VI 节：物理裁切与局部蒙版 | IconLab 第 III–IV 节：连续底板、变换与合成 |
-| 做好编辑器交互 | IconLab 第 V 节：即时更新与撤销事务 | DeckStage 第 XI 节：直接分配素材与场景状态 |
-| 多尺寸、高质量导出 | IconLab 第 VI 节：快照导出与采样 | DeckStage 第 XII 节：输出尺寸与原始素材重渲染 |
-| 判断技术结论是否充分 | IconLab 第 VII–VIII 节：合成实验与局限 | DeckStage 第 XIII–XIV 节：证据分类与验证约定 |
-
-想先了解整体思路，可以阅读[共同方法导览](docs/methodology.zh-CN.md)。每篇导读都提供章节地图、已报告的结果和开放问题。
-
 ## 阅读、引用与复用
 
 - **阅读：** 导读用于定位问题；公式、图表与完整论证以对应版本的 PDF 为准。
@@ -68,7 +54,6 @@ yf-official · 8 页 · 英文 · 技术论文
 
 ```text
 papers/          双语论文导读、章节地图与证据边界
-docs/            跨项目的方法联系
 assets/          仓库视觉素材
 templates/       新论文的导读模板
 catalog.json     结构化出版信息

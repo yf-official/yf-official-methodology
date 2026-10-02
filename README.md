@@ -1,14 +1,12 @@
-![Methodology: geometry, interaction, rendering, evidence](assets/methodology.svg)
+![Methodology paper collection](assets/methodology.svg)
 
 # Methodology
 
 English · [简体中文](README.zh-CN.md)
 
-**The reasoning behind the tools.** A collection of methodology papers and technical studies from yf-official projects: how a design problem becomes a geometric model, an editing workflow, and a result that can be checked.
+Independent papers and research notes from yf-official. Each entry presents its own research question, methods, publication information, and reading materials.
 
-Browse the papers by project, or follow a reading path across shared methods.
-
-[Paper library](#paper-library) · [Reading paths](#reading-paths) · [Shared methodology](docs/methodology.md) · [BibTeX](references.bib) · [Contributing](CONTRIBUTING.md)
+[Paper library](#paper-library) · [BibTeX](references.bib) · [Contributing](CONTRIBUTING.md)
 
 ## Paper library
 
@@ -43,18 +41,6 @@ An icon editor has to connect continuous gestures to discrete raster outputs. Th
 
 [Explore the paper →](papers/iconlab/README.md) · [Project source](https://github.com/yf-official/IconLab) · [Versioned release](https://github.com/yf-official/yf-official-methodology/releases/tag/iconlab-paper-2026-10-01)
 
-## Reading paths
-
-| Your interest | Start here | Then connect it to |
-| --- | --- | --- |
-| Reconstructing a scene from a reference | DeckStage §§IV–V: line families and plane estimation | §§VIII–IX: camera priors and folded packaging |
-| Preserving artwork through rendering | DeckStage §VI: physical trim and local masks | IconLab §§III–IV: continuous plate, transforms, and composition |
-| Building responsive editing tools | IconLab §V: immediate updates and transaction history | DeckStage §XI: direct assignment and scene state |
-| Exporting at multiple resolutions | IconLab §VI: snapshot export and sampling | DeckStage §XII: output dimensions and source-based rendering |
-| Assessing a technical claim | IconLab §§VII–VIII: synthetic evaluation and limits | DeckStage §§XIII–XIV: evidence classes and validation contracts |
-
-For an overview before the equations, read the [shared methodology guide](docs/methodology.md). Each paper's notes include a section map, reported results, and open questions.
-
 ## Using and citing the collection
 
 - **Read:** use the notes for orientation and the versioned PDF for equations, figures, and complete claims.
@@ -66,7 +52,6 @@ For an overview before the equations, read the [shared methodology guide](docs/m
 
 ```text
 papers/          Bilingual reading notes, section maps, and evidence boundaries
-docs/            Connections between methods across projects
 assets/          Repository artwork
 templates/       Template for the next paper's notes
 catalog.json     Structured publication metadata
