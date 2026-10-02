@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Methodology — papers, notes, and research</title>
+  <desc id="desc">A collection of independent papers and research notes, illustrated by a projected card and a rounded icon.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#d8dedb" stroke-width="1"/></pattern>
+    <clipPath id="corner"><rect width="1280" height="360" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#corner)">
+    <path fill="#f2f3ee" d="M0 0h1280v360H0z"/>
+    <path fill="url(#grid)" d="M710 0h570v360H710z"/>
+    <path fill="#173e42" d="M0 0h8v360H0z"/>
+    <g font-family="Arial, Helvetica, sans-serif" fill="#173e42">
+      <text x="48" y="62" font-size="14" letter-spacing="3">YF-OFFICIAL / RESEARCH COLLECTION</text>
+      <text x="44" y="149" font-size="70" font-weight="700" letter-spacing="-3">Methodology</text>
+      <text x="48" y="197" font-size="23">Papers, notes, and research.</text>
+      <path stroke="#9baea8" d="M48 238h600"/>
+      <text x="48" y="278" font-size="14" letter-spacing="1.5">PAPERS</text>
+      <text x="202" y="278" font-size="14" letter-spacing="1.5">NOTES</text>
+      <text x="376" y="278" font-size="14" letter-spacing="1.5">REFERENCES</text>
+      <text x="534" y="278" font-size="14" letter-spacing="1.5">ARCHIVE</text>
+    </g>
+    <g fill="none" stroke="#8caaa3" stroke-width="1.5" stroke-dasharray="5 6">
+      <path d="M744 118l267-48M729 214l282-57M754 305l272-60M778 74l29 249M888 53l35 244"/>
+    </g>
+    <g stroke="#173e42" stroke-width="2">
+      <path d="M804 118l100-19 17 134-102 23z" fill="#dce8df"/>
+      <path d="M818 131l73-14 12 98-74 16z" fill="#f9faf6"/>
+      <path d="M842 167l30-6 5 35-30 6z" fill="#d27b51" stroke="none"/>
+      <g fill="#173e42" stroke="none"><circle cx="804" cy="118" r="4"/><circle cx="904" cy="99" r="4"/><circle cx="921" cy="233" r="4"/><circle cx="819" cy="256" r="4"/></g>
+      <rect x="1033" y="103" width="150" height="150" rx="38" fill="#dce8df"/>
+      <rect x="1048" y="118" width="120" height="120" rx="30" fill="#f9faf6" stroke="#8caaa3"/>
+      <path d="M1080 191l28-47 28 47-28 22z" fill="#d27b51" stroke="none"/>
+      <path d="M1108 81v25M1108 251v25M1011 178h25M1180 178h25" stroke="#8caaa3"/>
+    </g>
+    <g font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.5" fill="#42605b"><text x="814" y="296">PAPERS</text><text x="1043" y="296">RESEARCH NOTES</text></g>
+  </g>
+</svg>
