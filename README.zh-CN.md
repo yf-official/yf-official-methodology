@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文
 
-收录 yf-official 的独立论文与研究笔记。各篇分别介绍研究问题、方法、出版信息与阅读资料。
+收录 yf-official 各项目的方法论论文、技术稿件与研究笔记。各篇分别介绍研究问题、方法、出版信息与阅读资料，并在可用时提供对应项目的源码链接。
 
 [论文目录](#论文目录) · [BibTeX 引用](references.bib) · [参与完善](CONTRIBUTING.zh-CN.md)
 
@@ -14,6 +14,7 @@
 | --- | --- | --- | --- |
 | **[DeckStage](#deckstage)** | 如何遵循参考图的几何关系，同时保留原始扑克牌设计？ | 射影几何 · 非破坏性渲染 · 折叠包装 | [中文导读](papers/deckstage/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf) |
 | **[IconLab](#iconlab)** | 如何让交互编辑与不同尺寸的导出共享一致的几何含义？ | 仿射变换 · 撤销事务 · 超采样 | [中文导读](papers/iconlab/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf) |
+| **[SHIYUN](#shiyun)** | 如何让长期运行的诗词界面协调呈现、个人诗库与有界资源？ | 状态契约 · 本地持久化 · 检索 · 内存与能耗 | [中文导读](papers/shiyun/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/shiyun-paper-2026-10-03/ShiYun-methodology.pdf) |
 
 ### DeckStage
 
@@ -43,11 +44,25 @@ yf-official · 8 页 · 英文 · 技术论文
 
 [展开中文导读 →](papers/iconlab/README.zh-CN.md) · [项目源码](https://github.com/yf-official/IconLab) · [查看发布版本](https://github.com/yf-official/yf-official-methodology/releases/tag/iconlab-paper-2026-10-01)
 
+### SHIYUN
+
+**Resource-Aware Development of Ambient Literary Interfaces: A Contract-Based Methodology**<br>
+面向环境式文学界面的资源感知开发：基于契约的方法论（中文译名）<br>
+yf-official · 11 页 · 英文 · 开发阶段技术方法论稿件
+
+原生诗词应用需要连接可中断的呈现、正确的键盘作用范围、个人诗库、本地创作与视觉自定义，同时避免积累不必要的工作。论文把需求逐项连接到责任组件、形式化契约、反例和验收观察，讨论代际保护的切换、有界选诗历史、导入等价性、预处理检索、共享字体样式及长期运行的内存治理。
+
+**可借鉴的方法：** 区分内容规模导致的内存增长与运行时间导致的保留；为任务和缓存明确生命周期与预算；通过受控工作负载验证资源性质，而不是由界面外观推断性能。
+
+**证据范围：** 四组选诗模型各运行 50,000 次，另有 2,000 条合成导入样本与 16 种命令上下文检查。尚未报告原生功耗测量、长时间内存测试结果或用户研究。配图为原创抽象示意图，不展示产品成品界面。
+
+[展开中文导读 →](papers/shiyun/README.zh-CN.md) · [项目源码](https://github.com/yf-official/SHIYUN) · [查看发布版本](https://github.com/yf-official/yf-official-methodology/releases/tag/shiyun-paper-2026-10-03)
+
 ## 阅读、引用与复用
 
 - **阅读：** 导读用于定位问题；公式、图表与完整论证以对应版本的 PDF 为准。
 - **引用：** 使用单篇论文的作者、完整标题、年份和发布链接，可直接复制 [references.bib](references.bib)。本仓库没有为论文指定 DOI 或发表期刊／会议。
-- **复用：** 按单篇论文确认权利。DeckStage 明确保留所有权利，转载需许可；IconLab 发布页没有声明复用许可。公开可读不等于获得复用授权。
+- **复用：** 按单篇论文确认权利。DeckStage 明确保留所有权利，转载需许可；IconLab 和 SHIYUN 发布页没有声明论文复用许可。公开可读不等于获得复用授权。
 - **扩充：** 按[贡献指南](CONTRIBUTING.zh-CN.md)和[论文导读模板](templates/paper-notes.md)新增条目，元数据统一记录在 [catalog.json](catalog.json)。
 
 ## 仓库结构

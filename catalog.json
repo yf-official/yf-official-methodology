@@ -38,6 +38,27 @@
       "notes": {"en": "papers/iconlab/README.md", "zh-CN": "papers/iconlab/README.zh-CN.md"},
       "citation_key": "yfofficial2026iconlab",
       "rights": "No explicit reuse license is specified in the release. Consult the author."
+    },
+    {
+      "id": "shiyun",
+      "project": "SHIYUN",
+      "title": "Resource-Aware Development of Ambient Literary Interfaces: A Contract-Based Methodology",
+      "authors": ["yf-official"],
+      "published": "2026-10-03",
+      "language": "en",
+      "pages": 11,
+      "publication_type": "Development-stage technical methodology manuscript",
+      "topics": ["state-contracts", "ambient-interfaces", "local-persistence", "text-retrieval", "memory-governance", "energy-evaluation"],
+      "release_tag": "shiyun-paper-2026-10-03",
+      "asset": "ShiYun-methodology.pdf",
+      "pdf_url": "https://github.com/yf-official/yf-official-methodology/releases/download/shiyun-paper-2026-10-03/ShiYun-methodology.pdf",
+      "release_url": "https://github.com/yf-official/yf-official-methodology/releases/tag/shiyun-paper-2026-10-03",
+      "project_url": "https://github.com/yf-official/SHIYUN",
+      "notes": {"en": "papers/shiyun/README.md", "zh-CN": "papers/shiyun/README.zh-CN.md"},
+      "citation_key": "yfofficial2026shiyun",
+      "sha256": "d8bdde414950e5e6dbf595c27db783dccb3bab9a34040c17c87116bc49150445",
+      "edition": "Author-marked PDF with yf-official watermark",
+      "rights": "No explicit manuscript reuse license is specified. Consult the author; project code rights are separate."
     }
   ]
 }

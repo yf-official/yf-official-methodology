@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md)
 
-Independent papers and research notes from yf-official. Each entry presents its own research question, methods, publication information, and reading materials.
+Project methodology papers, technical manuscripts, and research notes from yf-official. Each entry presents its own research question, methods, publication information, and reading materials, with a link to the corresponding project when available.
 
 [Paper library](#paper-library) · [BibTeX](references.bib) · [Contributing](CONTRIBUTING.md)
 
@@ -14,6 +14,7 @@ Independent papers and research notes from yf-official. Each entry presents its 
 | --- | --- | --- | --- |
 | **[DeckStage](#deckstage)** | How can a card mockup follow reference geometry while preserving the supplied artwork? | Projective geometry · non-destructive rendering · folded packaging | [Notes](papers/deckstage/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf) |
 | **[IconLab](#iconlab)** | How can interactive composition and exports at different sizes share one geometric meaning? | Affine transforms · undo transactions · supersampling | [Notes](papers/iconlab/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf) |
+| **[SHIYUN](#shiyun)** | How can a long-running literary interface coordinate presentation, personal libraries, and bounded resources? | State contracts · local persistence · retrieval · memory and energy | [Notes](papers/shiyun/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/shiyun-paper-2026-10-03/ShiYun-methodology.pdf) |
 
 ### DeckStage
 
@@ -41,11 +42,24 @@ An icon editor has to connect continuous gestures to discrete raster outputs. Th
 
 [Explore the paper →](papers/iconlab/README.md) · [Project source](https://github.com/yf-official/IconLab) · [Versioned release](https://github.com/yf-official/yf-official-methodology/releases/tag/iconlab-paper-2026-10-01)
 
+### SHIYUN
+
+**Resource-Aware Development of Ambient Literary Interfaces: A Contract-Based Methodology**<br>
+yf-official · 11 pages · English · Development-stage technical methodology manuscript
+
+A native literary application must connect interruptible presentation, meaningful keyboard focus, personal collections, local authorship, and visual customization without accumulating unnecessary work. The paper maps requirements to owners, formal contracts, counterexamples, and acceptance observations. It covers generation-guarded transitions, bounded selection history, ingestion equivalence, prepared retrieval, shared typography, and long-running memory governance.
+
+**What to take away:** distinguish content-dependent memory from duration-dependent retention; give tasks and caches explicit ownership and budgets; verify resource claims with controlled workloads rather than interface appearance.
+
+**Evidence:** four synthetic selection regimes with 50,000 draws each, a 2,000-record ingestion workload, and a 16-context command-gate check. Native power measurements, memory-soak results, and user-study outcomes are not reported. Figures are original abstract schematics, not product screenshots.
+
+[Explore the paper →](papers/shiyun/README.md) · [Project source](https://github.com/yf-official/SHIYUN) · [Versioned release](https://github.com/yf-official/yf-official-methodology/releases/tag/shiyun-paper-2026-10-03)
+
 ## Using and citing the collection
 
 - **Read:** use the notes for orientation and the versioned PDF for equations, figures, and complete claims.
 - **Cite:** use the individual manuscript's author, full title, year, and release URL. Copy the entries in [references.bib](references.bib); no DOI or publication venue is assigned here.
-- **Reuse:** check rights per manuscript. DeckStage explicitly reserves all rights and requires permission for redistribution. IconLab has no explicit reuse license in its release. Public access alone does not grant a reuse license.
+- **Reuse:** check rights per manuscript. DeckStage explicitly reserves all rights and requires permission for redistribution. IconLab and SHIYUN have no explicit manuscript reuse license in their releases. Public access alone does not grant a reuse license.
 - **Extend:** follow the [contribution guide](CONTRIBUTING.md) and [paper-note template](templates/paper-notes.md). Metadata is recorded in [catalog.json](catalog.json).
 
 ## Collection structure
