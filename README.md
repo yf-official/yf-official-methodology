@@ -15,6 +15,7 @@ Project methodology papers, technical manuscripts, and research notes from yf-of
 | **[DeckStage](#deckstage)** | How can a card mockup follow reference geometry while preserving the supplied artwork? | Projective geometry · non-destructive rendering · folded packaging | [Notes](papers/deckstage/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf) |
 | **[IconLab](#iconlab)** | How can interactive composition and exports at different sizes share one geometric meaning? | Affine transforms · undo transactions · supersampling | [Notes](papers/iconlab/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf) |
 | **[SHIYUN](#shiyun)** | How can a long-running literary interface coordinate presentation, personal libraries, and bounded resources? | State contracts · local persistence · retrieval · memory and energy | [Notes](papers/shiyun/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/shiyun-paper-2026-10-03/ShiYun-methodology.pdf) |
+| **[VidAudio](#vidaudio)** | How can a native media tool make duration, finalization, permissions, and job outcomes independently reviewable? | Design contracts · temporal integrity · VBR metadata · scoped access | [Notes](papers/vidaudio/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/vidaudio-paper-2026-10-03/VidAudio-methodology.pdf) |
 
 ### DeckStage
 
@@ -55,11 +56,24 @@ A native literary application must connect interruptible presentation, meaningfu
 
 [Explore the paper →](papers/shiyun/README.md) · [Project source](https://github.com/yf-official/SHIYUN) · [Versioned release](https://github.com/yf-official/yf-official-methodology/releases/tag/shiyun-paper-2026-10-03)
 
+### VidAudio
+
+**A Contract-Guided Development Methodology for Private Native Media-Extraction Tools**<br>
+yf-official · 7 pages · English · Development-stage technical methodology manuscript
+
+A native media tool must coordinate decoding, encoding, file access, visible state, and distributable artifacts. The paper translates those boundaries into six development contracts and a staged verification process. It distinguishes container extent, decoded sample count, coded frames, and player-reported duration, then connects VBR metadata finalization, sequential jobs, buffer demand, and scoped permissions to explicit acceptance observations.
+
+**What to take away:** declare the timeline policy before comparing durations; distinguish finalized output from safe publication and terminal progress from successful extraction; verify complete outcomes rather than relying on one component's success.
+
+**Evidence:** source inspection and the assertion scopes of seven existing regression tests, with analytical duration and resource examples. Independent-decoder coverage, gap reconstruction, atomic publication, relaunch permissions, and native performance remain acceptance work, not reported benchmark results. Figures are original abstract schematics and analytical plots, not product screenshots.
+
+[Explore the paper →](papers/vidaudio/README.md) · [Project source](https://github.com/yf-official/VidAudio) · [Versioned release](https://github.com/yf-official/yf-official-methodology/releases/tag/vidaudio-paper-2026-10-03)
+
 ## Using and citing the collection
 
 - **Read:** use the notes for orientation and the versioned PDF for equations, figures, and complete claims.
 - **Cite:** use the individual manuscript's author, full title, year, and release URL. Copy the entries in [references.bib](references.bib); no DOI or publication venue is assigned here.
-- **Reuse:** check rights per manuscript. DeckStage explicitly reserves all rights and requires permission for redistribution. IconLab and SHIYUN have no explicit manuscript reuse license in their releases. Public access alone does not grant a reuse license.
+- **Reuse:** check rights per manuscript. DeckStage explicitly reserves all rights and requires permission for redistribution. IconLab, SHIYUN, and VidAudio have no explicit manuscript reuse license in their releases. Public access alone does not grant a reuse license.
 - **Extend:** follow the [contribution guide](CONTRIBUTING.md) and [paper-note template](templates/paper-notes.md). Metadata is recorded in [catalog.json](catalog.json).
 
 ## Collection structure

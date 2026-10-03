@@ -15,6 +15,7 @@
 | **[DeckStage](#deckstage)** | 如何遵循参考图的几何关系，同时保留原始扑克牌设计？ | 射影几何 · 非破坏性渲染 · 折叠包装 | [中文导读](papers/deckstage/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/paper-2026-10-01/DeckStage_Methodology.pdf) |
 | **[IconLab](#iconlab)** | 如何让交互编辑与不同尺寸的导出共享一致的几何含义？ | 仿射变换 · 撤销事务 · 超采样 | [中文导读](papers/iconlab/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf) |
 | **[SHIYUN](#shiyun)** | 如何让长期运行的诗词界面协调呈现、个人诗库与有界资源？ | 状态契约 · 本地持久化 · 检索 · 内存与能耗 | [中文导读](papers/shiyun/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/shiyun-paper-2026-10-03/ShiYun-methodology.pdf) |
+| **[VidAudio](#vidaudio)** | 如何让原生媒体工具的时长、收尾、权限和任务结果能够分别核验？ | 设计契约 · 时间完整性 · VBR 元数据 · 受限资源访问 | [中文导读](papers/vidaudio/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/vidaudio-paper-2026-10-03/VidAudio-methodology.pdf) |
 
 ### DeckStage
 
@@ -58,11 +59,25 @@ yf-official · 11 页 · 英文 · 开发阶段技术方法论稿件
 
 [展开中文导读 →](papers/shiyun/README.zh-CN.md) · [项目源码](https://github.com/yf-official/SHIYUN) · [查看发布版本](https://github.com/yf-official/yf-official-methodology/releases/tag/shiyun-paper-2026-10-03)
 
+### VidAudio
+
+**A Contract-Guided Development Methodology for Private Native Media-Extraction Tools**<br>
+面向私密原生媒体提取工具的契约引导开发方法论（中文译名）<br>
+yf-official · 7 页 · 英文 · 开发阶段技术方法论稿件
+
+原生媒体工具需要协调解码、编码、文件访问、可见状态与分发产物。论文把这些边界转化为六项开发契约和分阶段验证流程，区分容器范围、解码样本数、编码帧与播放器报告时长，再把 VBR 元数据收尾、顺序任务、缓冲区需求和受限文件权限连接到明确的验收观察。
+
+**可借鉴的方法：** 比较时长前先声明时间线策略；区分输出收尾与安全发布、任务终结进度与成功提取；验证完整结果，而不是只依赖某个组件的成功返回。
+
+**证据范围：** 源码观察、已有七项回归测试的断言范围，以及时长与资源需求的分析计算。独立解码器覆盖、间隙重建、原子发布、重启后的权限恢复和原生性能仍属于待验收事项，不是已报告的基准结果。配图为原创抽象示意图与分析曲线，不展示产品成品界面。
+
+[展开中文导读 →](papers/vidaudio/README.zh-CN.md) · [项目源码](https://github.com/yf-official/VidAudio) · [查看发布版本](https://github.com/yf-official/yf-official-methodology/releases/tag/vidaudio-paper-2026-10-03)
+
 ## 阅读、引用与复用
 
 - **阅读：** 导读用于定位问题；公式、图表与完整论证以对应版本的 PDF 为准。
 - **引用：** 使用单篇论文的作者、完整标题、年份和发布链接，可直接复制 [references.bib](references.bib)。本仓库没有为论文指定 DOI 或发表期刊／会议。
-- **复用：** 按单篇论文确认权利。DeckStage 明确保留所有权利，转载需许可；IconLab 和 SHIYUN 发布页没有声明论文复用许可。公开可读不等于获得复用授权。
+- **复用：** 按单篇论文确认权利。DeckStage 明确保留所有权利，转载需许可；IconLab、SHIYUN 和 VidAudio 发布页没有声明论文复用许可。公开可读不等于获得复用授权。
 - **扩充：** 按[贡献指南](CONTRIBUTING.zh-CN.md)和[论文导读模板](templates/paper-notes.md)新增条目，元数据统一记录在 [catalog.json](catalog.json)。
 
 ## 仓库结构

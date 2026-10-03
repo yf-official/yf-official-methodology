@@ -59,6 +59,27 @@
       "sha256": "d8bdde414950e5e6dbf595c27db783dccb3bab9a34040c17c87116bc49150445",
       "edition": "Author-marked PDF with yf-official watermark",
       "rights": "No explicit manuscript reuse license is specified. Consult the author; project code rights are separate."
+    },
+    {
+      "id": "vidaudio",
+      "project": "VidAudio",
+      "title": "A Contract-Guided Development Methodology for Private Native Media-Extraction Tools",
+      "authors": ["yf-official"],
+      "published": "2026-10-03",
+      "language": "en",
+      "pages": 7,
+      "publication_type": "Development-stage technical methodology manuscript",
+      "topics": ["design-contracts", "temporal-integrity", "media-extraction", "vbr-metadata", "scoped-access", "verification"],
+      "release_tag": "vidaudio-paper-2026-10-03",
+      "asset": "VidAudio-methodology.pdf",
+      "pdf_url": "https://github.com/yf-official/yf-official-methodology/releases/download/vidaudio-paper-2026-10-03/VidAudio-methodology.pdf",
+      "release_url": "https://github.com/yf-official/yf-official-methodology/releases/tag/vidaudio-paper-2026-10-03",
+      "project_url": "https://github.com/yf-official/VidAudio",
+      "notes": {"en": "papers/vidaudio/README.md", "zh-CN": "papers/vidaudio/README.zh-CN.md"},
+      "citation_key": "yfofficial2026vidaudio",
+      "sha256": "e84aa049500226d9d2f4538ab9c07063a4be37168d2fa008394586804cc4d27a",
+      "edition": "Author-marked PDF with yf-official watermark",
+      "rights": "No explicit manuscript reuse license is specified. Consult the author; project code rights are separate."
     }
   ]
 }
