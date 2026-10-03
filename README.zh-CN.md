@@ -17,6 +17,7 @@
 | **[SHIYUN](#shiyun)** | 如何让长期运行的诗词界面协调呈现、个人诗库与有界资源？ | 状态契约 · 本地持久化 · 检索 · 内存与能耗 | [中文导读](papers/shiyun/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/shiyun-paper-2026-10-03/ShiYun-methodology.pdf) |
 | **[VidAudio](#vidaudio)** | 如何让原生媒体工具的时长、收尾、权限和任务结果能够分别核验？ | 设计契约 · 时间完整性 · VBR 元数据 · 受限资源访问 | [中文导读](papers/vidaudio/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/vidaudio-paper-2026-10-03/VidAudio-methodology.pdf) |
 | **[SlideSafe](#slidesafe)** | 如何解除演示文稿文字对字体环境的依赖，同时保持原视口并保留周围对象？ | OOXML 样式解析 · 固定视口渲染 · 几何不变性 · 安全替换 | [中文导读](papers/slidesafe/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/slidesafe-paper-2026-10-03/SlideSafe-methodology.pdf) |
+| **[Codex Usage Bar](#codex-usage-bar)** | 如何在运行时变化和生命周期事件中保留桌面额度的正确语义与时效？ | 额度语义 · 运行时发现 · 生命周期调度 · 信息年龄 | [中文导读](papers/codexusagebar/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/codexusagebar-paper-2026-10-03/CodexUsageBar-methodology.pdf) |
 
 ### DeckStage
 
@@ -88,11 +89,25 @@ yf-official · 5 页 · 英文 · 开发阶段技术方法论稿件
 
 [展开中文导读 →](papers/slidesafe/README.zh-CN.md) · [项目源码](https://github.com/yf-official/SlideSafe) · [查看发布版本](https://github.com/yf-official/yf-official-methodology/releases/tag/slidesafe-paper-2026-10-03)
 
+### Codex Usage Bar
+
+**Codex Usage Bar: A Methodology for Lifecycle-Aware Desktop Quota Observability**<br>
+Codex Usage Bar：面向桌面额度可观测性的生命周期感知方法论（中文译名）<br>
+yf-official · 7 页 · 英文 · 开发阶段技术方法论稿件
+
+桌面额度监视器需要区分缺失窗口、未知百分比、旧观察和不可用的桌面主程序。论文将只读运行时适配器、类型化额度语义、生命周期感知的数据获取、共享呈现和分窗口提醒身份分开，形式化描述剩余百分比换算、重置处理、有上限的退避、接收年龄及字形墨迹居中。
+
+**可借鉴的方法：** 保留未知与缺失状态；区分可执行文件与桌面主程序身份、接收年龄与来源年龄；让紧凑呈现和独立提醒连接到同一份观察模型。
+
+**证据范围：** 18 项核心／传输自动化测试通过，并给出明确理想化假设下的时效与负载计算。长期内存、CPU 与能耗、真机菜单栏位置和用户研究尚未形成测量结果。配图为原创抽象示意图与分析曲线，不展示产品成品界面或账户观察数据。
+
+[展开中文导读 →](papers/codexusagebar/README.zh-CN.md) · [项目源码](https://github.com/yf-official/Codex-Usage-Bar) · [查看发布版本](https://github.com/yf-official/yf-official-methodology/releases/tag/codexusagebar-paper-2026-10-03)
+
 ## 阅读、引用与复用
 
 - **阅读：** 导读用于定位问题；公式、图表与完整论证以对应版本的 PDF 为准。
 - **引用：** 使用单篇论文的作者、完整标题、年份和发布链接，可直接复制 [references.bib](references.bib)。本仓库没有为论文指定 DOI 或发表期刊／会议。
-- **复用：** 按单篇论文确认权利。DeckStage 明确保留所有权利，转载需许可；IconLab、SHIYUN、VidAudio 和 SlideSafe 发布页没有声明论文复用许可。公开可读不等于获得复用授权。
+- **复用：** 按单篇论文确认权利。DeckStage 明确保留所有权利，转载需许可；IconLab、SHIYUN、VidAudio、SlideSafe 和 Codex Usage Bar 发布页没有声明论文复用许可。公开可读不等于获得复用授权。
 - **扩充：** 按[贡献指南](CONTRIBUTING.zh-CN.md)和[论文导读模板](templates/paper-notes.md)新增条目，元数据统一记录在 [catalog.json](catalog.json)。
 
 ## 仓库结构
