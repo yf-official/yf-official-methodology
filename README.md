@@ -17,6 +17,7 @@ Project methodology papers, technical manuscripts, and research notes from yf-of
 | **[SHIYUN](#shiyun)** | How can a long-running literary interface coordinate presentation, personal libraries, and bounded resources? | State contracts · local persistence · retrieval · memory and energy | [Notes](papers/shiyun/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/shiyun-paper-2026-10-03/ShiYun-methodology.pdf) |
 | **[VidAudio](#vidaudio)** | How can a native media tool make duration, finalization, permissions, and job outcomes independently reviewable? | Design contracts · temporal integrity · VBR metadata · scoped access | [Notes](papers/vidaudio/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/vidaudio-paper-2026-10-03/VidAudio-methodology.pdf) |
 | **[SlideSafe](#slidesafe)** | How can presentation text become font-independent without changing its viewport or damaging surrounding objects? | OOXML style resolution · fixed-viewport rendering · geometry invariance · fail-safe replacement | [Notes](papers/slidesafe/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/slidesafe-paper-2026-10-03/SlideSafe-methodology.pdf) |
+| **[Codex Usage Bar](#codex-usage-bar)** | How can a desktop quota monitor preserve meaning and freshness across changing runtimes and lifecycle events? | Quota semantics · runtime discovery · lifecycle scheduling · information age | [Notes](papers/codexusagebar/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/codexusagebar-paper-2026-10-03/CodexUsageBar-methodology.pdf) |
 
 ### DeckStage
 
@@ -83,11 +84,24 @@ Presentation typography can change with fonts and rendering environments even wh
 
 [Explore the paper →](papers/slidesafe/README.md) · [Project source](https://github.com/yf-official/SlideSafe) · [Versioned release](https://github.com/yf-official/yf-official-methodology/releases/tag/slidesafe-paper-2026-10-03)
 
+### Codex Usage Bar
+
+**Codex Usage Bar: A Methodology for Lifecycle-Aware Desktop Quota Observability**<br>
+yf-official · 7 pages · English · Development-stage technical methodology manuscript
+
+A desktop quota monitor must distinguish absent windows, unknown percentages, stale observations, and unavailable hosts. The paper separates a read-only runtime adapter, typed quota semantics, lifecycle-aware acquisition, shared presentation, and window-specific alert identity. It formalizes remaining-percentage conversion, reset handling, capped backoff, receipt age, and glyph-bound centering.
+
+**What to take away:** preserve unknown and absent states; separate executable identity from desktop-host identity and receipt age from source age; connect compact presentation and independent alerts to one observation model.
+
+**Evidence:** 18 automated core/transport tests passed, with explicitly idealized freshness/load calculations. Long-duration memory, CPU/energy, on-device placement, and participant usability remain unmeasured. Figures are original abstract diagrams and an analytical plot, not product screenshots or account observations.
+
+[Explore the paper →](papers/codexusagebar/README.md) · [Project source](https://github.com/yf-official/Codex-Usage-Bar) · [Versioned release](https://github.com/yf-official/yf-official-methodology/releases/tag/codexusagebar-paper-2026-10-03)
+
 ## Using and citing the collection
 
 - **Read:** use the notes for orientation and the versioned PDF for equations, figures, and complete claims.
 - **Cite:** use the individual manuscript's author, full title, year, and release URL. Copy the entries in [references.bib](references.bib); no DOI or publication venue is assigned here.
-- **Reuse:** check rights per manuscript. DeckStage explicitly reserves all rights and requires permission for redistribution. IconLab, SHIYUN, VidAudio, and SlideSafe have no explicit manuscript reuse license in their releases. Public access alone does not grant a reuse license.
+- **Reuse:** check rights per manuscript. DeckStage explicitly reserves all rights and requires permission for redistribution. IconLab, SHIYUN, VidAudio, SlideSafe, and Codex Usage Bar have no explicit manuscript reuse license in their releases. Public access alone does not grant a reuse license.
 - **Extend:** follow the [contribution guide](CONTRIBUTING.md) and [paper-note template](templates/paper-notes.md). Metadata is recorded in [catalog.json](catalog.json).
 
 ## Collection structure

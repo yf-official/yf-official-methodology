@@ -101,6 +101,40 @@
       "sha256": "6ccfda4e20bbeee7e67bcba317602e5cff7dbceca420b5f2a2c0fa0b95c7cf4c",
       "edition": "Author-marked PDF with yf-official watermark",
       "rights": "No explicit manuscript reuse license is specified. Consult the author; project code rights are separate."
+    },
+    {
+      "id": "codexusagebar",
+      "project": "Codex Usage Bar",
+      "title": "Codex Usage Bar: A Methodology for Lifecycle-Aware Desktop Quota Observability",
+      "authors": [
+        "yf-official"
+      ],
+      "published": "2026-10-03",
+      "language": "en",
+      "pages": 7,
+      "publication_type": "Development-stage technical methodology manuscript",
+      "topics": [
+        "quota-semantics",
+        "runtime-discovery",
+        "lifecycle-management",
+        "information-freshness",
+        "notification-policy",
+        "privacy",
+        "verification"
+      ],
+      "release_tag": "codexusagebar-paper-2026-10-03",
+      "asset": "CodexUsageBar-methodology.pdf",
+      "pdf_url": "https://github.com/yf-official/yf-official-methodology/releases/download/codexusagebar-paper-2026-10-03/CodexUsageBar-methodology.pdf",
+      "release_url": "https://github.com/yf-official/yf-official-methodology/releases/tag/codexusagebar-paper-2026-10-03",
+      "project_url": "https://github.com/yf-official/Codex-Usage-Bar",
+      "notes": {
+        "en": "papers/codexusagebar/README.md",
+        "zh-CN": "papers/codexusagebar/README.zh-CN.md"
+      },
+      "citation_key": "yfofficial2026codexusagebar",
+      "sha256": "e4db23de7e788e53a0c2f4e86f6210244e3bf565c0e086d0f47025928ac014d0",
+      "edition": "Author-marked PDF with yf-official watermark",
+      "rights": "No explicit manuscript reuse license is specified. Consult the author; project code rights are separate."
     }
   ]
 }
