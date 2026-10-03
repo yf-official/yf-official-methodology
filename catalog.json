@@ -80,6 +80,27 @@
       "sha256": "e84aa049500226d9d2f4538ab9c07063a4be37168d2fa008394586804cc4d27a",
       "edition": "Author-marked PDF with yf-official watermark",
       "rights": "No explicit manuscript reuse license is specified. Consult the author; project code rights are separate."
+    },
+    {
+      "id": "slidesafe",
+      "project": "SlideSafe",
+      "title": "Geometry-Invariant Vector-Backed Image Replacement for Portable Presentation Typography",
+      "authors": ["yf-official"],
+      "published": "2026-10-03",
+      "language": "en",
+      "pages": 5,
+      "publication_type": "Development-stage technical methodology manuscript",
+      "topics": ["presentation-typography", "ooxml", "style-resolution", "fixed-viewport-rendering", "geometry-invariance", "fail-safe-replacement"],
+      "release_tag": "slidesafe-paper-2026-10-03",
+      "asset": "SlideSafe-methodology.pdf",
+      "pdf_url": "https://github.com/yf-official/yf-official-methodology/releases/download/slidesafe-paper-2026-10-03/SlideSafe-methodology.pdf",
+      "release_url": "https://github.com/yf-official/yf-official-methodology/releases/tag/slidesafe-paper-2026-10-03",
+      "project_url": "https://github.com/yf-official/SlideSafe",
+      "notes": {"en": "papers/slidesafe/README.md", "zh-CN": "papers/slidesafe/README.zh-CN.md"},
+      "citation_key": "yfofficial2026slidesafe",
+      "sha256": "6ccfda4e20bbeee7e67bcba317602e5cff7dbceca420b5f2a2c0fa0b95c7cf4c",
+      "edition": "Author-marked PDF with yf-official watermark",
+      "rights": "No explicit manuscript reuse license is specified. Consult the author; project code rights are separate."
     }
   ]
 }

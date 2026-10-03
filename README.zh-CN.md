@@ -16,6 +16,7 @@
 | **[IconLab](#iconlab)** | 如何让交互编辑与不同尺寸的导出共享一致的几何含义？ | 仿射变换 · 撤销事务 · 超采样 | [中文导读](papers/iconlab/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf) |
 | **[SHIYUN](#shiyun)** | 如何让长期运行的诗词界面协调呈现、个人诗库与有界资源？ | 状态契约 · 本地持久化 · 检索 · 内存与能耗 | [中文导读](papers/shiyun/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/shiyun-paper-2026-10-03/ShiYun-methodology.pdf) |
 | **[VidAudio](#vidaudio)** | 如何让原生媒体工具的时长、收尾、权限和任务结果能够分别核验？ | 设计契约 · 时间完整性 · VBR 元数据 · 受限资源访问 | [中文导读](papers/vidaudio/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/vidaudio-paper-2026-10-03/VidAudio-methodology.pdf) |
+| **[SlideSafe](#slidesafe)** | 如何解除演示文稿文字对字体环境的依赖，同时保持原视口并保留周围对象？ | OOXML 样式解析 · 固定视口渲染 · 几何不变性 · 安全替换 | [中文导读](papers/slidesafe/README.zh-CN.md) · [英文 PDF](https://github.com/yf-official/yf-official-methodology/releases/download/slidesafe-paper-2026-10-03/SlideSafe-methodology.pdf) |
 
 ### DeckStage
 
@@ -73,11 +74,25 @@ yf-official · 7 页 · 英文 · 开发阶段技术方法论稿件
 
 [展开中文导读 →](papers/vidaudio/README.zh-CN.md) · [项目源码](https://github.com/yf-official/VidAudio) · [查看发布版本](https://github.com/yf-official/yf-official-methodology/releases/tag/vidaudio-paper-2026-10-03)
 
+### SlideSafe
+
+**Geometry-Invariant Vector-Backed Image Replacement for Portable Presentation Typography**<br>
+面向可移植演示文稿排版的几何不变矢量图像替换方法（中文译名）<br>
+yf-official · 5 页 · 英文 · 开发阶段技术方法论稿件
+
+演示文稿即使结构有效，文字也可能随字体和渲染环境改变。论文结合分层 OOXML 样式解析、精确字体资格检查、固定视口字形渲染、显式突出显示与文字装饰，以及文本框、图形、组合和表格的分类替换策略。结果是带栅格后备图的矢量支持图片，不是可编辑的轮廓文字。
+
+**可借鉴的方法：** 区分对象几何与字形墨迹边界；保留透明边距和段落结构；先渲染并验证完整替代对象，最后才清除原文字。
+
+**证据范围：** 四对象基线与 32 对象合成排版测试集。压力测试中的 30 个符合条件的对象全部转换，两个有意不支持的对象保留，30 个替代对象的 XML 变换比较得到零差异。尚未测量跨引擎逐像素一致性、大规模覆盖或性能。配图为原创抽象示意图，不展示产品成品界面。
+
+[展开中文导读 →](papers/slidesafe/README.zh-CN.md) · [项目源码](https://github.com/yf-official/SlideSafe) · [查看发布版本](https://github.com/yf-official/yf-official-methodology/releases/tag/slidesafe-paper-2026-10-03)
+
 ## 阅读、引用与复用
 
 - **阅读：** 导读用于定位问题；公式、图表与完整论证以对应版本的 PDF 为准。
 - **引用：** 使用单篇论文的作者、完整标题、年份和发布链接，可直接复制 [references.bib](references.bib)。本仓库没有为论文指定 DOI 或发表期刊／会议。
-- **复用：** 按单篇论文确认权利。DeckStage 明确保留所有权利，转载需许可；IconLab、SHIYUN 和 VidAudio 发布页没有声明论文复用许可。公开可读不等于获得复用授权。
+- **复用：** 按单篇论文确认权利。DeckStage 明确保留所有权利，转载需许可；IconLab、SHIYUN、VidAudio 和 SlideSafe 发布页没有声明论文复用许可。公开可读不等于获得复用授权。
 - **扩充：** 按[贡献指南](CONTRIBUTING.zh-CN.md)和[论文导读模板](templates/paper-notes.md)新增条目，元数据统一记录在 [catalog.json](catalog.json)。
 
 ## 仓库结构

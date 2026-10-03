@@ -16,6 +16,7 @@ Project methodology papers, technical manuscripts, and research notes from yf-of
 | **[IconLab](#iconlab)** | How can interactive composition and exports at different sizes share one geometric meaning? | Affine transforms · undo transactions · supersampling | [Notes](papers/iconlab/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/iconlab-paper-2026-10-01/IconLab-methodology.pdf) |
 | **[SHIYUN](#shiyun)** | How can a long-running literary interface coordinate presentation, personal libraries, and bounded resources? | State contracts · local persistence · retrieval · memory and energy | [Notes](papers/shiyun/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/shiyun-paper-2026-10-03/ShiYun-methodology.pdf) |
 | **[VidAudio](#vidaudio)** | How can a native media tool make duration, finalization, permissions, and job outcomes independently reviewable? | Design contracts · temporal integrity · VBR metadata · scoped access | [Notes](papers/vidaudio/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/vidaudio-paper-2026-10-03/VidAudio-methodology.pdf) |
+| **[SlideSafe](#slidesafe)** | How can presentation text become font-independent without changing its viewport or damaging surrounding objects? | OOXML style resolution · fixed-viewport rendering · geometry invariance · fail-safe replacement | [Notes](papers/slidesafe/README.md) · [PDF](https://github.com/yf-official/yf-official-methodology/releases/download/slidesafe-paper-2026-10-03/SlideSafe-methodology.pdf) |
 
 ### DeckStage
 
@@ -69,11 +70,24 @@ A native media tool must coordinate decoding, encoding, file access, visible sta
 
 [Explore the paper →](papers/vidaudio/README.md) · [Project source](https://github.com/yf-official/VidAudio) · [Versioned release](https://github.com/yf-official/yf-official-methodology/releases/tag/vidaudio-paper-2026-10-03)
 
+### SlideSafe
+
+**Geometry-Invariant Vector-Backed Image Replacement for Portable Presentation Typography**<br>
+yf-official · 5 pages · English · Development-stage technical methodology manuscript
+
+Presentation typography can change with fonts and rendering environments even when the document remains valid. The paper combines hierarchical OOXML style resolution, exact-font eligibility, fixed-viewport glyph rendering, explicit highlights and text decorations, and object-aware replacement for text boxes, shapes, groups, and tables. The result is a vector-backed image with a raster fallback, not editable outline text.
+
+**What to take away:** keep object geometry separate from glyph ink bounds; retain transparent margins and paragraph structure; render and validate a complete substitute before clearing source text.
+
+**Evidence:** a four-object baseline and a 32-object synthetic typography corpus. All 30 eligible stress objects were converted, both deliberately unsupported objects were preserved, and XML comparison found zero transform mismatches in the 30 replacements. Cross-engine pixel fidelity, large-scale coverage, and performance remain unmeasured. Figures are original abstract schematics, not product screenshots.
+
+[Explore the paper →](papers/slidesafe/README.md) · [Project source](https://github.com/yf-official/SlideSafe) · [Versioned release](https://github.com/yf-official/yf-official-methodology/releases/tag/slidesafe-paper-2026-10-03)
+
 ## Using and citing the collection
 
 - **Read:** use the notes for orientation and the versioned PDF for equations, figures, and complete claims.
 - **Cite:** use the individual manuscript's author, full title, year, and release URL. Copy the entries in [references.bib](references.bib); no DOI or publication venue is assigned here.
-- **Reuse:** check rights per manuscript. DeckStage explicitly reserves all rights and requires permission for redistribution. IconLab, SHIYUN, and VidAudio have no explicit manuscript reuse license in their releases. Public access alone does not grant a reuse license.
+- **Reuse:** check rights per manuscript. DeckStage explicitly reserves all rights and requires permission for redistribution. IconLab, SHIYUN, VidAudio, and SlideSafe have no explicit manuscript reuse license in their releases. Public access alone does not grant a reuse license.
 - **Extend:** follow the [contribution guide](CONTRIBUTING.md) and [paper-note template](templates/paper-notes.md). Metadata is recorded in [catalog.json](catalog.json).
 
 ## Collection structure
